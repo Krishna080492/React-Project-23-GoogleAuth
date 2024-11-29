@@ -101,19 +101,6 @@ function AuthPage() {
             {signIn ? "LogIn" : "SignUp"}
           </h2>
 
-          <p className="text-center mb-4 text-muted">
-            {signIn ? "Don't have an account?" : "Already have an account?"}{" "}
-            <strong
-              style={{ cursor: "pointer" }}
-              onClick={() => setSignIn(!signIn)}
-            >
-              {signIn ? "Signup now!" : "Login here!"}
-            </strong>
-          </p>
-
-          {error && <div className="alert alert-danger">{error}</div>}
-          {message && <div className="alert alert-success">{message}</div>}
-
           <div className="mb-3">
             <label htmlFor="email" className="form-label">
               Email address :
