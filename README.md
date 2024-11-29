@@ -1,4 +1,4 @@
-Hosting Link : ]https://project-13-auth.firebaseapp.com/
+Hosting Link : https://project-13-auth.firebaseapp.com/
 
 
 [# React + Vite
