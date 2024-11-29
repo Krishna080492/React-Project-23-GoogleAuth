@@ -34,6 +34,9 @@ function Navbar() {
               <Link className="btn btn-success p-2 me-2" to="/" role="button">
                 Signup
               </Link>
+              <Link className="btn btn-success p-2 me-2" to="/logout" role="button">
+                Logout
+              </Link>
             </form>
           </div>
         </div>

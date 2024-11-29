@@ -28,7 +28,6 @@ function ProductList({ updateProduct }) {
               <div className="card-body">
                 <h5 className="card-title">{product.title}</h5>
                 <p className="card-text">Rs.{product.price}</p>
-                <p className="card-text">{product.image}</p>
                 <p className="card-text">{product.category}</p>
               </div>
               <div className="mx-3 mb-3">

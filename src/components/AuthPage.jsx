@@ -34,7 +34,7 @@ function AuthPage() {
         .then(() => {
           setLoading(false);
           setMessage("Signed in successfully!");
-          navigator("/home");
+          navigator("/productform");
         })
         .catch((err) => {
           setLoading(false);
@@ -45,7 +45,7 @@ function AuthPage() {
         .then(() => {
           setLoading(false);
           setMessage("Signed up successfully!");
-          navigator("/home");
+          navigator("/productform");
         })
         .catch((err) => {
           setLoading(false);
@@ -63,7 +63,7 @@ function AuthPage() {
       .then(() => {
         setLoading(false);
         setMessage("Signed in with Google!");
-        navigator("/home");
+        navigator("/productform");
       })
       .catch((err) => {
         setLoading(false);
